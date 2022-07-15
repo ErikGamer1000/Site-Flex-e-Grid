@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/pag_entreg-flex_grid.css">
+    <title>Página de Entrega</title>
+</head>
+<body>
+    <div class="tudo">
+        <header>
+            <div class="logo"><img src="../Imagens/BombaF_logo.jpeg" alt="BombaF_logo"></div>
+            <div><form><input name="Pesq" class="pesquisar" type=search placeholder="Pesquisa"></form></div>
+        </header>
+<nav>
+    <div class="páginas">
+        <div class="página"><a href="../HTML/Página_principal-flex_grid.html"><h2>Principal</h2></a></div>
+        <div class="página"><a href="../HTML/Página_personagens-flex_grid.html"><h2>Personagens</h2></a></div>
+        <div class="página"><a href="../HTML/Página_modelos-flex_grid.html"><h2>Modelos</h2></a></div>
+        <div class="página"><a href="../HTML/Página_ofertas-flex_grid.html"><h2>Ofertas</h2></a></div>
+        <div class="página"><a class="cor" href="../HTML/Página_entrega-flex_grid.html"><h2>Entrega</h2></a></div>
+        <div class="página"><a href="../HTML/Página_animação-flex_grid.html"><h2>Animação</h2></a></div>
+    </div>
+    <div class="título"><h2>Entrega</h2></div>
+</nav>
+<main>
+    <div class="gridDiv">
+    <div class="fig">
+    <figure>
+    <img class="Fimg" src="../Imagens/carrinho.png" alt="Carrinho de Compras">
+    <figcaption>Carrinho de Compras (1 produto)</figcaption>
+    </figure>
+    </div>
+    <div class="tudoNat">
+    <div class="ImgDstaq">
+        <img class="ImgNat" src="../Imagens/AF-Naruto-Destaque.jpg" alt="AF-Naruto-Destaque">
+    </div>
+        <div class="prec">Preço Naruto NS: 59,99 R$ </div>
+        <div class="prec">Total à Pagar (Todos os produtos [1] ): 59,99 R$</div>
+    </div>
+    </div>
+    <form>
+    <fieldset class="formField">
+        <legend><h4>Insira os dados abaixo para realizar a compra</h4></legend>
+        <label for="n1" class="wt">Nome Completo:</label>
+        <input name="Nome" class="Form placeholder" placeholder ="Primeiro Nome - Nome do Meio - Sobrenome" type="text" id="n1" required><br>
+        <label for="d1" class="wt">Data de Nascimento:</label>
+        <input name="Data" class="Form" type="date" id="d1" required> <br>
+        <div class="divG">
+        <div>
+            <label for="e1" class="wt">Endereço:</label>
+            <input name="Endereço" class="Form" type="text" id="e1" required>
+        </div>
+        <div>
+            <label for="e2" class="wt">Número (do endereço):</label>
+            <input name="Número End." class="Form num" type="number" id="e2" required> <br>
+        </div>
+        </div>
+        <label for="c1" class="wt">CEP:</label>
+        <input name="CEP" class="Form" type="number" id="c1" required> <br>
+        <label for="c2" class="wt">CPF:</label>
+        <input name="CPF" class="Form" type="number" id="c2" placeholder="Digite apenas os números" required> <br>
+        <label for="m1" class="wt">Email:</label>
+        <input name="Email" class="Form" type="email" id="m1" required> <br>
+        <label for="t1" class="wt">Telefone:</label>
+        <input name="Tel" class="Form" type="tel" id="t1" required> <br>
+        <label for="f1" class="wt">Forma de Pagamento:</label><br>
+        <select class="Form" name="Pag" id="f1" required size="8">
+        <option value="1" label="*Não selecionado" disabled selected></option>
+        <option value="2" label="Visa"></option>
+        <option value="3" label="Master Card"></option>
+        <option value="4" label="American Express"></option>
+        <option value="5" label="Hipercard"></option>
+        <option value="6" label="Hiper"></option>
+        <option value="7" label="Bradesco"></option>
+        <option value="8" label="Itaú"></option>
+        <option value="9" label="Pix"></option>
+        </select> <br>
+        <label for="c3" class="wt">Número do Cartão de Crédito:</label>
+        <input name="CartãoCred" class="Form" type="number" id="c3"> <br>
+        <input class="Envio Form" type="submit" name="enviar" value="Realizar Compra">
+    </fieldset>
+        <fieldset class="formField">
+        <legend>Informações Extras (Não Obrigatórias)</legend>
+        <label for="e3" class="wt">Complemento do Endereço:</label>
+        <input class="Form" type="text" id="e3"> <br>
+        <label for="u1" class="wt">Upload de Arquivo (Um arquivo contendo todas as informações obrigatórias):</label>
+        <input name="Upload" class="Form upl" type="file" id="u1"> <br>
+        <p class="wt">Feedback:</p> <br>
+        <textarea name="comentario" class="Form" cols="10" rows="5" placeholder="Digite a sua opnião sobre o site"></textarea> <br>
+        <input class="Envio Form" type="submit" name="enviar" value="Enviar"><br>
+    </fieldset>
+</form>
+</main>
+<footer>
+<div class="logo-footer"><img src="../Imagens/BombaF_logo-alt.jpg" alt="BombaF_logo"></div>
+<div class="links-div">
+    <div class="links">Contato</div>
+    <div class="links">Segurança</div>
+    <div class="links"><a class="ama" href="https://meh-the-learner.github.io/Site_1/html_folder/main.html">Parceiro</a></div>
+    <div class="links">Copyright</div>
+</div>
+
+</footer>
+</div>
+</body>
+</html>
